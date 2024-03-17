@@ -7,7 +7,7 @@ namespace C__LR_3
         static void Main(string[] args)
         {
             Title title = new Title();
-            title.SetTitle("TitleN");
+            title.SetTitle("Title");
             Book myBook = new Book(title);
             
             myBook.SetAuthor("Ім'я автора");
